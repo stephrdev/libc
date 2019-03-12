@@ -1212,6 +1212,7 @@ pub const SO_RCVTIMEO: ::c_int = 0x1006;
 pub const SO_ERROR: ::c_int = 0x1007;
 pub const SO_TYPE: ::c_int = 0x1008;
 pub const SO_TIMESTAMP: ::c_int = 0x1013;
+pub const SO_REUSEPORT: ::c_int = 0x100e;
 
 pub const SCM_RIGHTS: ::c_int = 0x1010;
 pub const SCM_UCRED: ::c_int = 0x1012;
